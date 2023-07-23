@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Weekly Coding Challenge #8 - Chat Interface</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+	
+
+<!-- partial:index.partial.html -->
+
+<div class="buttons" id="group" >
+
+	<div>
+	<button onclick="function1(); setTimeout(function1_0, 2000) "id="button1" class="btn-outline success"><span>Cand platesc constatarea si deplasarea?</span></button>
+	</div>
+<br>
+<div>
+
+	<button onclick="function2(); setTimeout(function2_0, 2000) "id="button2" class="btn-outline success"><span>Daca platesc reparatia mai platesc si constatarea sau deplasarea?</span></button>
+    </div>
+
+	<br>
+
+	<div>
+	<button onclick="function3(); setTimeout(function3_0, 2000) "id="button3" class="btn-outline success"><span>Preturile de pe site sunt fixe?</span></button>
+
+</div>
+<br>
+<div> 
+
+	<button onclick="function4(); setTimeout(function4_0, 2000) "id="button4" class="btn-outline success"></i><span>Putem vorbi pe WhatsApp?  </span></button>
+    </div>
+
+    <br>
+
+	<div>
+	<button onclick="function5(); setTimeout(function5_0, 2000) "id="button5" class="btn-outline success"><span>Se poate face programare in prealabil?</span></button>
+
+</div>
+<br>
+<div>
+
+	<button onclick="function6(); setTimeout(function6_0, 2000) "id="button6" class="btn-outline success"><span>Piese schimbate sunt noi?</span></button>
+   </div>
+
+</div>
+
+
+<div class="chat-container" id="chat_id">
+	
+	<ul class="chat" id="chat">
+		<li class="message left" id="intrebare1">
+			<img class="logo" src="logo_client.png" alt="">
+			<p>Cand platesc constatarea si deplasarea?</p>
+			<img src="dots.gif" style="width: 50px" height="50px" id="dots">
+		
+		</li>
+		<li class="message right" id="mesaj1">
+			<img id="raspuns2" class="logo" src="logo_eu.jpg" alt="">
+			<p id="raspuns">Pretul constatarii si deplasarii(70 lei) se achita doar in cazul in care in reparatia nu poate fi efectuata din motive neimputabile noua.Ca si exemple: clientul nu mai doreste reparatia dupa constatare, reparatia nu se poate efectua din cauza incompatibilitatii cerintelor clientului, lipsei de componente si altor servicii din partea clientului necesare finalizarii operatiunii de service.</p>
+		
+		</li>
+		<li class="message left" id="intrebare2">
+			<img class="logo" src="logo_client.png" alt="">
+			<p>Daca platesc reparatia mai platesc si constatarea sau deplasarea?</p>
+			<img src="dots.gif" style="width: 50px" height="50px" id="dots2">
+		</li>
+		<li class="message right"  id="mesaj2">
+			<img class="logo" src="logo_eu.jpg" alt="">
+			<p>In cazul achitarii tarifului aferent reparatiei, nu se mai plateste nici constatarea si nici deplasarea.</p>
+			
+		</li>
+		<li class="message left" id="intrebare3">
+			<img class="logo" src="logo_client.png" alt="">
+			<p>Preturile de pe site sunt fixe?</p>
+			<img src="dots.gif" style="width: 50px" height="50px" id="dots3">
+		</li> 
+		<li class="message right"  id="mesaj3">
+			<img class="logo" src="logo_eu.jpg" alt="">
+			<p>Preturile afisate pe site nu sunt fixe, ele pot varia in functie de simplitatea sau complexitatea serviciilor oferite.</p>
+		</li>
+	</ul>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
